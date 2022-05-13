@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+			 Title="Main Page"
+			 xct:StatusBarEffect.Color="Purple"
+             x:Class="BugTest1.Views.MainPage">
+
+    <StackLayout VerticalOptions="CenterAndExpand" Padding="16">
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+		<Button Text="Open Content Page" Clicked="BtnOpenContentPage_Clicked" />
+		<Button Text="Open Popup Page" Clicked="BtnOpenPopupPage_Clicked" />
+	</StackLayout>
+
+</ContentPage>

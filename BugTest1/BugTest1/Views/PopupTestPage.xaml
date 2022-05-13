@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rg:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			  xmlns:rg="http://rotorgames.com"
+			  Padding="80"
+			  Title="Popup Page"
+              x:Class="BugTest1.Views.PopupTestPage">
+
+	<Frame BackgroundColor="White" VerticalOptions="CenterAndExpand">
+		<StackLayout Padding="16">
+			<Button Text="Open Content Page" Clicked="BtnOpenContentPage_Clicked" />
+			<Button Text="Open Popup Page" Clicked="BtnOpenPopupPage_Clicked" />
+			<Button Text="Back" Clicked="BtnBack_Clicked" />
+			<Button Text="Reset Stack" Clicked="BtnResetStack_Clicked" />
+		</StackLayout>
+	</Frame>
+</rg:PopupPage>
